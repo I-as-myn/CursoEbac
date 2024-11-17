@@ -11,13 +11,13 @@ aprovados.forEach(alunos => {
 });
 
 // Reprovados
-function alunosReprovados (alunos) {
-    return alunos.filter(alunos => alunos.nota < 6);
-}
+// function alunosReprovados (alunos) {
+//     return alunos.filter(alunos => alunos.nota < 6);
+// }
 
-const reprovados = alunosReprovados(alunos);
-console.log("Lista de Alunos Reprovados:");
-reprovados.forEach(alunos => {
-    console.log(`Nome: ${alunos.nome}, Nota: ${alunos.nota}`);
-});
+// const reprovados = alunosReprovados(alunos);
+// console.log("Lista de Alunos Reprovados:");
+// reprovados.forEach(alunos => {
+//     console.log(`Nome: ${alunos.nome}, Nota: ${alunos.nota}`);
+// });
 
